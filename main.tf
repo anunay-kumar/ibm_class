@@ -1,14 +1,14 @@
 variable "container_name" {
   description = "Name of container"
-  default = "blog"
+  default = "myweb"
 }
 variable "image" {
   description = "image for container"
-  default = "ghost:latest"
+  default = "nginx:latest"
 }
 variable "int_port" {
   description = "internal port for container"
-  default = "2368"
+  default = "80"
 }
 variable "ext_port" {
   description = "external port for container"
