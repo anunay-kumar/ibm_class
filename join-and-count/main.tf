@@ -1,8 +1,8 @@
 #----------storage/main.tf-------
 provider "aws" {
   region = "ap-south-1"
-  access_key= "AAI4ABJCTLA3H4EAXA"
-  secret_key= "hJadH+tTn5F8WEyXizwwwr2H81ZgqQ36qPQNA8"
+  access_key= "AKIAIJJZFQTOANBO3ZTQ"
+  secret_key= "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"
 }
 
 # Create a random id 
