@@ -1,3 +1,4 @@
+
 variable "container_name" {
   description = "Name of container"
   default = "myweb"
@@ -15,7 +16,7 @@ variable "ext_port" {
   default = "80"
 }
 
-# Download the latest Ghost Image
+# Download the latest nginx Image
 resource "docker_image" "image_id" {
   name = "${var.image}"
 }
